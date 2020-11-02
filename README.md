@@ -1,9 +1,9 @@
-I used SWAPI.
-You have logger in Console
-state managment : Redux
-style : SCSS/Styled Component
-I used Token generator, when you use 'sign up' redux will store token
-i have knowledge of Typescript but never used it before so i don't implemented.
+I used SWAPI. <br />
+You have logger in Console <br />
+state managment : Redux <br />
+style : SCSS/Styled Component <br />
+I used Token generator, when you use 'sign up' redux will store token <br />
+i have knowledge of Typescript but never used it before so i don't implemented. <br />
 
 ### `npm install`
 
