@@ -1,0 +1,89 @@
+[33mcommit b6398e8d83d927b2079dbcd6250c1bb6f25cd394[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sun Nov 1 11:23:41 2020 +0100
+
+    rerender after logIn
+
+[33mcommit 4585193c961a95b145d6f5bddca5ac53238f3f76[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sun Nov 1 06:58:37 2020 +0100
+
+    bg img del
+
+[33mcommit e8ee7732eefcdc3fb8fdbd80cb4d6ca9ff5bf078[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sat Oct 31 14:09:00 2020 +0100
+
+    bg img
+
+[33mcommit 479c65f47b1a781532a82a6282d13f6061613a29[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sat Oct 31 13:45:54 2020 +0100
+
+    add img to all hero,  create fake token
+
+[33mcommit 7291fe8af0ab053c0bba7fe9c85afffc03d7dda1[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 19:49:27 2020 +0100
+
+    repair route, add id to hero, edit fetch
+
+[33mcommit 38e9cce19e3f4abaf09595932e670169cd1ce4bc[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 16:11:28 2020 +0100
+
+    add sign in all component , label component + styles
+
+[33mcommit c949fa4a0d044e877a1ca00e1c10f756ae17c118[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 14:56:02 2020 +0100
+
+    rename all from movie to hero
+
+[33mcommit d78c64cfa5df3fadcff5d7ddffd6d79736964ba1[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 14:40:50 2020 +0100
+
+    work
+
+[33mcommit 012887450d76f9731038530827af9cbbc606e45a[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 14:19:45 2020 +0100
+
+    cart-overview done
+
+[33mcommit 0df6982c0b247391ad2a8d9dc32300dc75008758[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Fri Oct 30 11:13:48 2020 +0100
+
+    add custom-button to show next heroes
+
+[33mcommit 06c55c22a196ed56bc01635905401102511496f1[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Oct 29 22:22:09 2020 +0100
+
+    home-page, route(doesnt work)
+
+[33mcommit 44aae72afad0551c5df99c448d015f384d22ff3d[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Oct 29 20:47:19 2020 +0100
+
+    serching from fetch
+
+[33mcommit 36998343e3e44935277f7c16a8f0412597b0f1d1[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Oct 29 14:49:03 2020 +0100
+
+    add filter in card-list component
+
+[33mcommit 0b0703048989d1624221bf54156972ae64f63242[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Oct 29 10:46:52 2020 +0100
+
+    first commit, card-list component, card component, spinner, redux
+
+[33mcommit 38a13efb69b99c393362eadb3a8fcb92cf3552e1[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Wed Oct 28 21:29:06 2020 +0100
+
+    Initialize project using Create React App

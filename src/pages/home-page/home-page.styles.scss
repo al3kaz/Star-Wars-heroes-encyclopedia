@@ -1,0 +1,39 @@
+.title {
+   text-align: center;
+   margin: 30px;
+   font-family: 'Press Start 2P', cursive;
+   color: #FFE81F;
+   letter-spacing: 0.1cm;
+}
+
+.all-heroes-view {
+display: flex;
+justify-content: center;
+min-width: 165px;
+max-width: 300px;
+width: auto;
+height: 50px;
+margin: 20px auto;
+letter-spacing: 0.5px;
+line-height: 50px;
+padding: 0 35px 0 35px;
+font-size: 15px;
+background-color: black;
+color: white;
+text-transform: uppercase;
+font-family: 'Open Sans Condensed';
+font-weight: bolder;
+border: none;
+}
+
+.sigh-in-link{
+display: flex;
+margin: 30px;
+padding: 10px;
+height: 100%;
+align-items: center;
+justify-content: flex-end;
+text-decoration: none;
+color: white;
+cursor: pointer;
+}

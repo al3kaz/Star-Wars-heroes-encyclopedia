@@ -1,0 +1,27 @@
+.sign-in {
+   width: 380px;
+   display: flex;
+   flex-direction: column;
+
+   .title {
+      margin: 50px 0;
+      color: #FFE81F;
+   }
+
+   .buttons {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+.warning {
+   text-align: center;
+   margin: 40px;
+   font-size: 24px;
+   color: red;
+   line-height: 2;
+ }
+
+ span {
+    color: white;
+ }
