@@ -3,6 +3,8 @@ Redux to sate management <br>
 SCSS/Styled component for style <br>
 token generator store in Redux store <br>
 
+[Live Demo](https://st4r-w4rs-encyclopedia.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
