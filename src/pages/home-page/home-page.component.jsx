@@ -44,7 +44,7 @@ class HomePage extends Component {
             })
             this.props.setHeroes({ heroes: heroesWithIds });
             this.setState({ loading: false });
-            this.setState({ nextPage: data.next });
+            this.setState({ nextPage: data.next.replace('http', 'https') });
          })
          .catch((error) => {
             console.log(error)
@@ -62,7 +62,7 @@ class HomePage extends Component {
                   return hero
                })
                this.props.setHeroes({ heroes: heroesWithIds });
-               this.setState({ nextPage: data.next });
+               this.setState({ nextPage: data.next.replace('http', 'https') });
             });
       }
    }
@@ -78,7 +78,7 @@ class HomePage extends Component {
             })
             const newArr = this.props.heroes.heroes;
             this.props.setHeroes({ heroes: [...newArr, ...heroesWithIds] });
-            this.setState({ nextPage: data.next });
+            this.setState({ nextPage: data.next.replace('http', 'https') });
          });
    }
 
