@@ -14,19 +14,21 @@ import './home-page.styles.scss'
 
 const CardListWithSpinner = WithSpinner(CardList)
 
+
 class HomePage extends Component {
    constructor(props) {
       super(props);
       this.state = {
          loading: true,
          searchField: '',
-         nextPage: "http://swapi.dev/api/people/"
+         nextPage: "https://swapi.dev/api/people/"
 
       }
    }
 
+
    componentDidMount() {
-      fetch(`http://swapi.dev/api/people/`)
+      fetch(`https://swapi.dev/api/people/`)
          .then(response => {
             if (response.ok) {
                return response.json();

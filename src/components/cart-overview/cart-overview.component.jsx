@@ -12,7 +12,7 @@ const CardOverview = (props) => {
 
    useEffect(() => {
 
-      fetch(`http://swapi.dev/api/people/${actualHero}/`)
+      fetch(`https://swapi.dev/api/people/${actualHero}/`)
          .then(response => response.json())
          .then(data => {
             setHero(data)

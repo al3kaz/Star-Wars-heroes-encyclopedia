@@ -1,10 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app showing Star Wars Hero from SWAPI
+Redux to sate management
+SCSS/Styled component for style
+token generator store in Redux store
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 
