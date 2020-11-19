@@ -1,7 +1,7 @@
-React app showing Star Wars Hero from SWAPI
-Redux to sate management
-SCSS/Styled component for style
-token generator store in Redux store
+React app showing Star Wars Hero from SWAPI <br>
+Redux to sate management <br>
+SCSS/Styled component for style <br>
+token generator store in Redux store <br>
 
 ## Available Scripts
 
