@@ -16,7 +16,7 @@ const CardOverview = (props) => {
          .then(response => response.json())
          .then(data => {
             setHero(data)
-            fetch(`${data.homeworld}`)
+            fetch(`${data.homeworld.replace('http', 'https')}`)
                .then(response => response.json())
                .then(data => {
                   setPlanet(data)
