@@ -1,4 +1,5 @@
 .card-container {
+  min-width: 20%;
    display: flex;
    flex-direction: column;
    text-align: center;
@@ -6,14 +7,12 @@
    border: 1px solid grey;
    border-radius: 5px;
    padding: 25px;
-   cursor: pointer;
-   -moz-osx-font-smoothing: grayscale;
-   backface-visibility: hidden;
    transform: translateZ(0);
    transition: transform 0.25s ease-out;
    text-decoration: none;
    color: black;
    opacity: 0.9;
+   cursor: pointer;
 
  }
  
@@ -24,6 +23,9 @@
 
  .card-name {
    padding-top: 20px;
+   @media screen and (max-width: 800px) {
+    font-size: 1.3rem;
+  } 
  }
 
  .card-img {

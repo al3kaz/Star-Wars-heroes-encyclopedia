@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
-import { CardOverviewContainer, Detail } from './cart-overview.styles';
+import { CardOverviewContainer, Detail, ImgCointainer, DetailsContainer } from './cart-overview.styles';
 
 const CardOverview = (props) => {
 
@@ -28,16 +28,20 @@ const CardOverview = (props) => {
       <  >
          {
             planet ? <CardOverviewContainer>
-               <img className="card-img" src={process.env.PUBLIC_URL + `./img/${actualHero}.jpg`} alt="hero" />
-               <Detail as="h1">{hero.name.toUpperCase()}</Detail>
-               <Detail>Birth year: <b>{hero.birth_year.toUpperCase()}</b></Detail>
-               <Detail>Gender: <b>{hero.gender.toUpperCase()}</b></Detail>
-               <Detail>Height: <b>{hero.height.toUpperCase()}</b> </Detail>
-               <Detail>Weight: <b>{hero.mass.toUpperCase()}</b></Detail>
-               <Detail>Skin color: <b>{hero.skin_color.toUpperCase()}</b></Detail>
-               <Detail>Eye color: <b>{hero.eye_color.toUpperCase()}</b></Detail>
-               <Detail>Hair color: <b>{hero.hair_color.toUpperCase()}</b></Detail>
-               <Detail>Homeworld: <b>{planet.name.toUpperCase()}</b></Detail>
+               <ImgCointainer>
+                  <img className="card-img" src={process.env.PUBLIC_URL + `./img/${actualHero}.jpg`} alt="hero" />
+               </ImgCointainer>
+               <DetailsContainer>
+                  <Detail as="h1">{hero.name.toUpperCase()}</Detail>
+                  <Detail>Birth year: <b>{hero.birth_year.toUpperCase()}</b></Detail>
+                  <Detail>Gender: <b>{hero.gender.toUpperCase()}</b></Detail>
+                  <Detail>Height: <b>{hero.height.toUpperCase()}</b> </Detail>
+                  <Detail>Weight: <b>{hero.mass.toUpperCase()}</b></Detail>
+                  <Detail>Skin color: <b>{hero.skin_color.toUpperCase()}</b></Detail>
+                  <Detail>Eye color: <b>{hero.eye_color.toUpperCase()}</b></Detail>
+                  <Detail>Hair color: <b>{hero.hair_color.toUpperCase()}</b></Detail>
+                  <Detail>Homeworld: <b>{planet.name.toUpperCase()}</b></Detail>
+               </DetailsContainer>
             </CardOverviewContainer >
                : null
          }

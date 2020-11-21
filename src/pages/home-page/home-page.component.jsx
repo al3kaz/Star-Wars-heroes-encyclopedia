@@ -14,7 +14,6 @@ import './home-page.styles.scss'
 
 const CardListWithSpinner = WithSpinner(CardList)
 
-
 class HomePage extends Component {
    constructor(props) {
       super(props);
@@ -62,7 +61,6 @@ class HomePage extends Component {
                   return hero
                })
                this.props.setHeroes({ heroes: heroesWithIds });
-               this.setState({ nextPage: data.next.replace('http', 'https') });
             });
       }
    }
